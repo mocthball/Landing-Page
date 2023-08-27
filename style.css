@@ -1,0 +1,39 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+    height: 72px;
+    margin-top: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header > .left {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header > .right {
+    font-size: 18px;
+}
+
+.header > .right > a{
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+}
+
+.footer {
+    height: 72px;
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+}
