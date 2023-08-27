@@ -35,5 +35,48 @@ body{
     height: 72px;
     background-color: #1F2937;
     color: white;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #1F2937;
+    color: white;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+
+.hero-content > .left > h1 {
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.hero-content > .left {
+    width: 450px;
+    font-size: 18px;
+    padding: 32px;
+}
+
+.hero-content > .right {
+    width: 450px;
+    height: 300px;
+    padding: 32px;
+    overflow: hidden;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 8px;
+    color: white;
+    font-weight: bold;
+    border: none;
 }
