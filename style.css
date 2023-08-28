@@ -95,6 +95,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 124px;
 }
 
 .body > .info > .images-container {
@@ -108,7 +109,8 @@ button {
 }
 
 .images-container > .item {
-    padding: 32px;
+    padding: 64px;
+    text-align: center;
 }
 
 .item > img {
@@ -118,8 +120,57 @@ button {
     width: 100%
 }
 
-.quote {
+.body > .quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:justify;
     background-color: #E5E7EB;
-    text-align: center;
-    width: 400px;
+    padding: 124px 64px;
+    font-size: 24px;
+}
+
+.quote > p {
+    width: 800px;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote > b {
+    margin-left: 22em;
+}
+
+.body > .signup {
+    height: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.declaration > .text {
+    margin-right: 86px;
+}
+
+.declaration > .text > b {
+    font-size: 20px;
+}
+
+.signup > .declaration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: #3882F6;
+    border-radius: 16px;
+    color: white;
+    padding: 48px;
+}
+
+
+.declaration > button {
+    border-color: white;
+    padding: 8px 36px;
+    border: 2px solid;
+    border-radius: 12px;
 }
